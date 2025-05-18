@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">MultiDebug Client</string>
+    <string name="EDeviceIP">Enter device IP</string>
+    <string name="EPort">Enter port</string>
+    <string name="Connect">Connect</string>
+    <string name="Disconnect">Disconnect</string>
+    <string name="ECommand">Enter command</string>
+    <string name="Send" translatable="false">Send</string>
+</resources>

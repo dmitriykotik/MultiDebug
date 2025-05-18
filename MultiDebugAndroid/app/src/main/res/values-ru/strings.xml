@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="EDeviceIP">Введите IP устройства</string>
+    <string name="EPort">Введите порт</string>
+    <string name="Connect">Подключиться</string>
+    <string name="Disconnect">Отключиться</string>
+    <string name="ECommand">Введите команду</string>
+</resources>
