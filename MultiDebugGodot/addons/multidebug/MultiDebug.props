@@ -1,0 +1,11 @@
+<Project>
+  <ItemGroup>
+    <Reference Include="MultiDebug.Server">
+      <HintPath>$(MSBuildProjectDirectory)\addons\multidebug\MultiDebug.Server\MultiDebug.Server.dll</HintPath>
+    </Reference>
+      
+    <Reference Include="MultiDebug.Client">
+      <HintPath>$(MSBuildProjectDirectory)\addons\multidebug\MultiDebug.Client\MultiDebug.Client.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

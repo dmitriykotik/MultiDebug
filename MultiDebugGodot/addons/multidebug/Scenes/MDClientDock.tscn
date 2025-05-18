@@ -1,0 +1,131 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0v2m7y412jfj"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_3ffut"]
+font_size = 26
+
+[node name="MdClientDock" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -855.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MDClientLabel" type="Label" parent="."]
+layout_mode = 0
+offset_right = 149.0
+offset_bottom = 26.0
+text = "MultiDebug Client"
+label_settings = SubResource("LabelSettings_3ffut")
+
+[node name="IPLabel" type="Label" parent="."]
+layout_mode = 0
+offset_top = 37.0
+offset_right = 40.0
+offset_bottom = 60.0
+text = "IP:"
+
+[node name="IPInput" type="LineEdit" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 2.0
+offset_top = 59.0
+offset_right = -2.0
+offset_bottom = 90.0
+grow_horizontal = 2
+placeholder_text = "Enter device IP"
+max_length = 15
+emoji_menu_enabled = false
+virtual_keyboard_type = 2
+
+[node name="PortLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 89.0
+offset_right = 42.0
+offset_bottom = 112.0
+text = "Port:"
+
+[node name="PortInput" type="LineEdit" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 2.0
+offset_top = 111.0
+offset_right = -2.0
+offset_bottom = 142.0
+grow_horizontal = 2
+placeholder_text = "Enter MultiDebug PORT"
+max_length = 5
+emoji_menu_enabled = false
+virtual_keyboard_type = 2
+
+[node name="ConnectButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 2.0
+offset_top = 147.0
+offset_right = -2.0
+offset_bottom = 195.0
+grow_horizontal = 2
+text = "Connect"
+
+[node name="DisconnectButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 2.0
+offset_top = 201.0
+offset_right = -2.0
+offset_bottom = 249.0
+grow_horizontal = 2
+disabled = true
+text = "Disconnect"
+
+[node name="LogView" type="TextEdit" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = 255.0
+offset_right = -2.0
+offset_bottom = -41.0
+grow_horizontal = 2
+grow_vertical = 2
+editable = false
+emoji_menu_enabled = false
+virtual_keyboard_enabled = false
+
+[node name="CommandInput" type="LineEdit" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -36.0
+offset_right = -99.0
+offset_bottom = -5.0
+grow_horizontal = 2
+grow_vertical = 0
+editable = false
+
+[node name="SendButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -96.0
+offset_top = -36.0
+offset_right = -2.0
+offset_bottom = -5.0
+grow_horizontal = 0
+grow_vertical = 0
+disabled = true
+text = "Send"
