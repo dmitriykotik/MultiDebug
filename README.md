@@ -20,6 +20,8 @@
 ## MultiDebugAndroid
 Данный проект содержит клиент `MultiDebug`, для взаимодействия с серверной части приложения, которое поддерживает `MultiDebug`. Этот проект написан на `Kotlin`, с использованием `Android Studio`. Для сборки вам понадобится `Android SDK` версии `31`. 
 
+Вы можете загрущить этот проект как из раздела релизов, так и с RuStore: https://www.rustore.ru/catalog/app/com.dmitriykotik.multidebug.client
+
 ## MultiDebugGodot
 `MultiDebugGodot` - это плагин для игрового движка `Godot`. Данный проект содержит сервер и клиент `MultiDebug`. 
 
